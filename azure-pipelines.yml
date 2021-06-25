@@ -53,7 +53,7 @@ stages:
     variables:
     - group: Release
     strategy:
-     runsOnce:
+     runOnce:
         deploy:
           steps:
           - download: current
